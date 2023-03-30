@@ -90,9 +90,9 @@
     function getTravelTime(from,to){
         let travelTime;
         if (from > to){
-            travelTime ='A menetidő: ' +  (from - to)
+            travelTime ='A menetidő: ' +  (from - to) +'perc'
         }else if (to > from){
-             travelTime ='A menetidő: ' + (to - from)
+             travelTime ='A menetidő: ' + (to - from) + 'perc'
         }else {
              travelTime = "„Hiba: Azonos megállókat választott ki!"
         }
